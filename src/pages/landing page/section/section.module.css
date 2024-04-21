@@ -19,37 +19,43 @@
     position: absolute;
     left: 50px;
     bottom: 15%;
-    padding-block: 2rem;
-    /* height: 100%; */
+    width: 40%;
 
 
 
-    details {
-        display: flex;
-        flex-direction: column;
+    .details {
+        display: grid;
         text-align: left;
+        margin-right: 2rem;
     }
 
     h2,
-    h3,
-    button {
+    h3 {
         color: var(--clr-white);
         text-transform: uppercase;
         font-weight: bolder;
+        font-family: var(--font);
+        font-weight: bolder;
+        text-wrap: wrap;
     }
 
     h2 {
         font-size: var(--fs-large);
+        line-height: 1;
     }
 
     h3 {
-        font-size: var(--fs-medium);
+        font-size: var(--fs-small);
+        font-weight: normal;
+        margin-bottom: 0.5rem;
     }
 
-    button {
+    /* button {
         background-color: transparent;
         border: 2px solid var(--clr-white);
-        padding: 1rem 3rem;
-        margin-top: 1rem;
-    }
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+        width: 10rem;
+        cursor: pointer;
+    } */
 }

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 1920px;
 
 }
 
@@ -10,9 +11,12 @@
     --clr-offwhite: #787F86;
     --clr-black: #000000;
 
-    --fs-large: 3rem;
-    --fs-medium: 1.875rem;
-    --fs-small: 1.172rem;
+    --fs-large: 2.8rem;
+    --fs-medium: 1.75rem;
+    --fs-small: 1.09rem;
+    --fs-extra-small: 0.78rem;
+    --font: "Roboto",
+        sans-serif;
 }
 
 
@@ -22,4 +26,13 @@
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
 }

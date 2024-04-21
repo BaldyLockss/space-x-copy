@@ -1,5 +1,7 @@
 import React from "react";
 import "./landing.css";
+import Header from "../../components/header/header";
+import { Navlist } from "../../data/nav";
 import InfoSection from "./section/section";
 import {
   MultiData,
@@ -11,10 +13,13 @@ import {
 const Landing = () => {
   return (
     <div>
-      <InfoSection data={MultiData} />
-      <InfoSection data={starLinkData} />
-      <InfoSection data={UssfData} />
-      <InfoSection data={starshipData} />
+      <Header data={Navlist} />
+      <main>
+        <InfoSection data={MultiData} />
+        <InfoSection data={starLinkData} />
+        <InfoSection data={UssfData} />
+        <InfoSection data={starshipData} />
+      </main>
     </div>
   );
 };

@@ -1,0 +1,27 @@
+.btn {
+    margin-top: 2rem;
+    border: 2px solid var(--clr-white);
+    width: 10.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: var(--fs-extra-small);
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: var(--clr-white);
+}
+
+/* .btn::after {
+    content: "";
+    background-color: red;
+    height: 100%;
+    width: 10.5rem;
+    display: inline-block;
+    transform: translateX(-18px) translateY(110%);
+} */
+
+.btn:hover {
+    color: var(--clr-black);
+    background-color: var(--clr-white);
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./section.module.css";
+import Button from "../../../components/button/button";
 
 const InfoSection = React.memo(({ data }) => {
   return (
@@ -13,7 +14,7 @@ const InfoSection = React.memo(({ data }) => {
                 <div className={s.details}>
                   <h3>{preTitle}</h3>
                   <h2>{title}</h2>
-                  <button>{btn}</button>
+                  <Button btn={btn}></Button>
                 </div>
               </div>
             </div>
